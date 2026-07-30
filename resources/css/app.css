@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+:root {
+  --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', 'Noto Sans', 'Helvetica Neue', Arial;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Small helper for card image aspect */
+.img-card {
+  width: 100%;
+  height: 16rem; /* equivalent to h-64 */
+  object-fit: cover;
+}
